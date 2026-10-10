@@ -1,224 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Student portfolio for Web Design Lab01">
-  <title>Nguyen Minh Anh - Student Portfolio</title>
+  <meta name="description" content="Portfolio của Huỳnh Tiểu Dung.">
+  <title>Huỳnh Tiểu Dung - Student Portfolio</title>
 </head>
-
-
 <body>
-  <header>
- <h1>Nguyen Minh Anh</h1>
-    <p>Web Design Student Portfolio</p>
-
-
-    <nav>
+  <header id="top">
+    <h1>Huỳnh Tiểu Dung</h1>
+    <p>Student Portfolio | Data Science &amp; Web Design Lab01</p>
+    <nav aria-label="Điều hướng chính">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#learning-goals">Learning Goals</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
-
-
   <hr>
-
-
   <main>
     <section id="about">
       <h2>About Me</h2>
-
-
       <figure>
-        <img src="images/profile.svg"
-             alt="Portrait illustration of student Nguyen Minh Anh"
-             width="240">
-        <figcaption>Nguyen Minh Anh - Web Design student.</figcaption>
+        <img
+          src="images/my-profile.jpg"
+          alt="Ảnh đại diện minh họa của sinh viên Huỳnh Tiểu Dung"
+          width="150"
+        >
       </figure>
-
-
       <p>
-        I am a first-year student learning how to build clear and well-structured web pages.
-        My current focus is HTML document structure, semantic elements, links, images,
-        lists, tables and forms.
+        Em là sinh viên ngành Toán - Tin học, chuyên ngành Khoa học Dữ liệu, tại Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia TP.HCM.
       </p>
-
-
       <p>
-        Career goal: become a Front-end Developer and continue learning CSS and JavaScript
-        after completing the HTML foundation.
+        Portfolio này tổng hợp các bài thực hành của em, ghi lại quá trình học tập và những kỹ năng mà em vẫn đang tiếp tục phát triển trong bộ môn Thiết kế Web (Web Design).
       </p>
     </section>
 
-
     <hr>
-
 
     <section id="skills">
-      <h2>Current Skills</h2>
+      <h2>Skills &amp; Tools</h2>
 
-
-      <h3>HTML Fundamentals</h3>
+      <h3>Core Skills</h3>
       <ul>
-        <li>HTML document structure</li>
-        <li>Headings, paragraphs and links</li>
-        <li>Images with alt text</li>
-        <li>Lists and content hierarchy</li>
-        <li>Semantic HTML structure</li>
-   <li>Basic tables and forms</li>
+        <li><strong>Web Design:</strong> Cấu trúc tài liệu HTML5 ngữ nghĩa, liên kết nội trang (fragment link) và tổ chức dữ liệu dạng bảng/biểu mẫu tĩnh.</li>
       </ul>
 
-
-      <h3>Tools</h3>
+      <h3>Affiliations</h3>
       <ul>
-        <li>Visual Studio Code</li>
-        <li>XAMPP / Apache</li>
-        <li>Git and GitHub</li>
-        <li>Web Browser</li>
+        <li>University of Science, VNU-HCM (HCMUS).</li>
+        <li>MindX Technology School.</li>
+      </ul>
+
+      <h3>Tools Used</h3>
+      <ul>
+        <li><strong>Web Design:</strong> Visual Studio Code, XAMPP / Apache, Git và GitHub.</li>
+        <li><strong>Robotics:</strong> Lego Spike (bộ công cụ & ứng dụng), VEX GO kit & VEX GO app.</li>
       </ul>
     </section>
 
-
     <hr>
-
 
     <section id="projects">
       <h2>Projects</h2>
 
-
       <article>
-        <h3>Project 01 - Web Design Course Profile</h3>
-
-
+        <h3>Project 01 - Poem with Image (Lab01 Bài 4)</h3>
         <figure>
-          <img src="images/project-course.svg"
-               alt="Illustration of a Web Design course profile page"
-               width="420">
-          <figcaption>A one-page HTML course profile created in Lab01.</figcaption>
+          <img
+            src="images/cats.gif"
+            alt="Hai chú mèo, một màu vàng cam và một màu xám trắng, đang ở cạnh nhau"
+            width="240"
+          >
+          <figcaption>Hình minh họa được dùng trong trang thơ HTML.</figcaption>
         </figure>
-
-
         <p>
-          This project introduces a Web Design course using semantic HTML.
-          The page contains a header, navigation, sections, a learning roadmap,
-          a table and contact information.
-        </p>
-
-
-        <p>
-          Main HTML elements:
-          <strong>header, nav, main, section, figure, table and footer</strong>.
+          Trang thực hành kết hợp tiêu đề, các đoạn thơ, ngắt dòng bằng <code>br</code>,
+          liên kết neo và nhóm hình ảnh bằng <code>figure</code> cùng <code>figcaption</code>.
         </p>
       </article>
 
+      <article>
+        <h3>Project 02 - Image and Text Demonstration (Lab01 Bài 5)</h3>
+        <figure>
+          <img
+            src="images/scene.jpg"
+            alt="Phong cảnh núi tuyết phản chiếu trên mặt nước xanh"
+            width="240"
+          >
+          <figcaption>Ví dụ tổ chức hình ảnh và nội dung mô tả trong HTML.</figcaption>
+        </figure>
+        <p>
+          Trang minh họa mối quan hệ cha-con giữa <code>figure</code>, <code>img</code>
+          và <code>figcaption</code> theo luồng tài liệu mặc định, không dùng CSS.
+        </p>
+      </article>
 
       <article>
-        <h3>Project 02 - Student Study Plan</h3>
-
-
+        <h3>Project 03 - Topic Page: Khám phá không gian (Lab01 Bài 6)</h3>
         <figure>
-          <img src="images/project-study-plan.svg"
-               alt="Illustration of a student study plan page"
-               width="420">
-          <figcaption>A study plan organized with headings, lists and a table.</figcaption>
+          <img
+            src="images/space.jpg"
+            alt="Một phi hành gia đang trôi nổi trong không gian, phía dưới là Trái Đất"
+            width="240"
+          >
+          <figcaption>Hình minh họa cho trang chủ đề khám phá không gian.</figcaption>
         </figure>
-   <p>
-          This project presents a weekly learning plan.
-          Heading levels organize the content and a table summarizes the study schedule.
+        <p>
+          Trang chủ đề sử dụng hệ thống tiêu đề, các đoạn văn và thẻ <strong>strong</strong>
+          cùng <em>em</em> để nhấn mạnh nội dung theo ngữ nghĩa.
         </p>
       </article>
     </section>
 
-
     <hr>
-
 
     <section id="education">
       <h2>Education</h2>
-
-
+      
+      <h3>Chứng chỉ & Đào tạo</h3>
+      
       <table>
         <thead>
           <tr>
-            <th>Period</th>
-            <th>Program</th>
-            <th>Focus</th>
+            <th>Trạng thái</th>
+            <th>Chương trình</th>
+            <th>Trọng tâm học tập</th>
           </tr>
         </thead>
-
-
         <tbody>
           <tr>
-            <td>2026</td>
-            <td>Web Design Fundamentals</td>
-            <td>HTML structure and semantic architecture</td>
+            <td>Đang học</td>
+            <td>Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM</td>
+            <td>Toán - Tin học, chuyên ngành Khoa học Dữ liệu</td>
           </tr>
           <tr>
-            <td>Next</td>
-            <td>CSS Fundamentals</td>
-            <td>Layout and visual styling</td>
+            <td>Đã hoàn thành</td>
+            <td>Google AI Essentials</td>
+            <td>Kiến thức nền tảng về AI</td>
+          </tr>
+          <tr>
+            <td>Đã hoàn thành</td>
+            <td>Google Project Management Certificate</td>
+            <td>Lập kế hoạch và quản lý dự án</td>
           </tr>
         </tbody>
       </table>
     </section>
 
+    <hr>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <article>
+        <h3>Robotics Teacher - MindX Technology School</h3>
+        <p>
+          Hiện tại, em đang đảm nhiệm vai trò giáo viên dịch vụ, hướng dẫn học sinh làm quen với tư duy lập trình và lắp ráp Robot thông qua các bộ giáo cụ. Công việc này giúp em rèn luyện khả năng truyền đạt một cách dễ hiểu và tổ chức lớp học hiệu quả.
+        </p>
+      </article>
+    </section>
 
     <hr>
 
+    <section id="learning-goals">
+      <h2>Learning Goals</h2>
+      <article>
+        <h3>Định hướng nghề nghiệp</h3>
+        <p>
+          Mục tiêu dài hạn của em là phát triển sự nghiệp trong lĩnh vực công nghệ với các vai trò như <strong>Project Manager (PM)</strong>, <strong>Product Owner (PO)</strong> hoặc <strong>Data Analyst (DA)</strong>. Em luôn nỗ lực trau dồi khả năng kết nối dữ liệu, quản lý tiến độ dự án và giải quyết vấn đề thực tiễn.
+        </p>
+      </article>
+    </section>
+
+    <hr>
 
     <section id="contact">
       <h2>Contact</h2>
-
-
       <p>
-        Email:
-        <a href="mailto:minhanh.student@example.com">
-          minhanh.student@example.com
-        </a>
+        GitHub repository:
+        <a href="https://github.com/tieudung/WDLab01">github.com/tieudung/WDLab01</a>
       </p>
-
-
-      <p>
-  GitHub:
-        <a href="https://github.com/">
-          github.com/minhanh-student
-        </a>
-      </p>
-
 
       <h3>Contact Form Demo</h3>
-
-
       <form>
         <p>
-          <label for="student-name">Your Name</label><br>
-          <input id="student-name" name="student-name" type="text">
+          <label for="visitor-name">Họ và tên</label><br>
+          <input id="visitor-name" name="visitor-name" type="text">
         </p>
-
-
         <p>
-          <label for="student-email">Your Email</label><br>
-          <input id="student-email" name="student-email" type="email">
+          <label for="visitor-email">Email</label><br>
+          <input id="visitor-email" name="visitor-email" type="email">
+        </p>
+        <p>
+          <label for="visitor-message">Nội dung liên hệ</label><br>
+          <textarea id="visitor-message" name="visitor-message" rows="4" cols="40"></textarea>
+        </p>
+        <p>
+          <button type="submit">Biểu mẫu minh họa (chưa gửi dữ liệu)</button>
         </p>
       </form>
-
-
+      
       <p>
-        This form is only a static HTML example for Lab01.
+        Đây là biểu mẫu HTML tĩnh dùng để minh họa cấu trúc form. Trang chưa có backend để xử lý hoặc lưu thông tin được nhập.
       </p>
     </section>
   </main>
 
-
   <hr>
 
-
   <footer>
-    <p>Student Portfolio - Web Design Lab01</p>
-    <p>Created with HTML only.</p>
+    <p>Huỳnh Tiểu Dung - Student Portfolio | WD-Lab01</p>
+    <p>Được xây dựng bằng HTML thuần trong phạm vi Lab01.</p>
+    
+    <p><a href="#top">Về đầu trang</a></p>
   </footer>
 </body>
 </html>
